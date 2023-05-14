@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:constraint_referenced_ids="button1, button2, button3"/>
+
+
     <Button
         android:id="@+id/button1"
         style="@style/numberkeypad"
@@ -20,7 +30,7 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         style="@style/numberkeypad"
         android:text="3"
         />
