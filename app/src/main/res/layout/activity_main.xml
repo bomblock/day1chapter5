@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-fgfgfg
+
     <androidx.constraintlayout.helper.widget.Flow
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -15,7 +15,7 @@ fgfgfg
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:constraint_referenced_ids="button1, button2, button3"/>
-
+WERWER
 
     <Button
         android:id="@+id/button1"
