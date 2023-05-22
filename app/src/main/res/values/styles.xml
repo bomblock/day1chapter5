@@ -4,5 +4,9 @@
         <item name = "android:textSize">40sp</item>
         <item name = "android:layout_width">0dp</item>
         <item name = "android:layout_height">0dp</item>
+        <item name ="android:backgroundTint">#8ADF7A</item>
+    </style>
+    <style name="operatorKeypad" parent="numberkeypad">
+        <item name ="android:backgroundTint">#4D953F</item>
     </style>
 </resources>
