@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "올바르지 않은 수식 입니다.", Toast.LENGTH_SHORT).show()
             return
 
-        }
+        }hh
         val firstNumber = firstNumberText.toString().toInt()
         val secondNumber = secondNumberText.toString().toInt()
 
